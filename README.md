@@ -56,7 +56,8 @@ mini_ecommerce_dw/
 ---
 
 ## 3) ER diagram (ASCII) — paste to `ER_diagram_ascii.txt`
-![Uploading image.png…]()
+<img width="625" height="570" alt="image" src="https://github.com/user-attachments/assets/22fb52a8-1500-4684-b1bb-239b8a4813bd" />
+
 
                             
 
