@@ -13,3 +13,18 @@ It demonstrates ELT (staging → transform → load), star-schema modeling, and 
 - Analytics queries (daily/monthly trends, top customers/products, rollups, basket analysis)
 
 ## Repo structure
+mini_ecommerce_dw/
+├── data/
+│   ├── customers.csv
+│   ├── products.csv
+│   ├── orders.csv
+│   └── order_items.csv
+├── schema_and_staging.csv_load.sql
+├── etl_load.sql
+├── analytics_queries.sql
+├── sample_outputs/
+│   ├── daily_sales.csv
+│   ├── top_products_by_revenue.csv
+│   └── …
+├── ER_diagram_ascii.txt
+└── README.md
