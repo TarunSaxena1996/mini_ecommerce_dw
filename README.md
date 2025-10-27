@@ -56,8 +56,10 @@ mini_ecommerce_dw/
 ---
 
 ## 3) ER diagram 
+
 ### Input data-
 <img width="609" height="294" alt="image" src="https://github.com/user-attachments/assets/b7de7fe4-0a70-4367-8938-e1913d8f307b" />
+
 ### Staged tables and views
 <img width="1029" height="200" alt="image" src="https://github.com/user-attachments/assets/760b34c5-5ab1-4b32-8326-7d921c65f0c8" />
 
