@@ -55,26 +55,17 @@ mini_ecommerce_dw/
   ```
 ---
 
-## 3) ER diagram (ASCII) — paste to `ER_diagram_ascii.txt`
+## 3) ER diagram 
+### Input data-
+<img width="609" height="294" alt="image" src="https://github.com/user-attachments/assets/b7de7fe4-0a70-4367-8938-e1913d8f307b" />
+### Staged tables and views
+<img width="1029" height="200" alt="image" src="https://github.com/user-attachments/assets/760b34c5-5ab1-4b32-8326-7d921c65f0c8" />
+
+### Star schema
 <img width="625" height="570" alt="image" src="https://github.com/user-attachments/assets/22fb52a8-1500-4684-b1bb-239b8a4813bd" />
 
 
                             
 
-```
-If you prefer a PNG: open draw.io / DBeaver ER export and export PNG, drop into repo as `ER_diagram.png`.
 
----
 
-## 4) Git & GitHub — exact commands to publish
-From your project root:
-```bash
-cd mini_ecommerce_dw
-git init
-git add .
-git commit -m "mini ecommerce dw capstone: schema, etl, analytics"
-# Create a repo on GitHub (via web), then:
-git remote add origin git@github.com:<yourusername>/mini_ecommerce_dw.git
-git branch -M main
-git push -u origin main
-```
