@@ -13,7 +13,7 @@ It demonstrates ELT (staging → transform → load), star-schema modeling, and 
 - Analytics queries (daily/monthly trends, top customers/products, rollups, basket analysis)
 
 ## Repo structure
-'''
+```
 mini_ecommerce_dw/
 ├── data/
 │   ├── customers.csv
@@ -29,4 +29,4 @@ mini_ecommerce_dw/
 │   └── …
 ├── ER_diagram_ascii.txt
 └── README.md
-'''
+```
