@@ -63,6 +63,7 @@ mini_ecommerce_dw/
                    +--------+-------+
                             |
                             |
+```
 +—————+       +—––v––––+      +–––––––+
 | dim_customer  |       |   fact_sales   |      |  dim_product |
 | customer_id PK|<——+ order_id       +—–>| product_id PK|
@@ -80,7 +81,7 @@ mini_ecommerce_dw/
 | full_date    |
 | day month yr |
 +–––––––+
-
+```
 If you prefer a PNG: open draw.io / DBeaver ER export and export PNG, drop into repo as `ER_diagram.png`.
 
 ---
