@@ -56,31 +56,10 @@ mini_ecommerce_dw/
 ---
 
 ## 3) ER diagram (ASCII) — paste to `ER_diagram_ascii.txt`
-                   +----------------+
-                   |  dim_region    |
-                   | region_id (PK) |
-                   | region_name    |
-                   +--------+-------+
-                            |
-                            |
-```
-+—————+       +—––v––––+      +–––––––+
-| dim_customer  |       |   fact_sales   |      |  dim_product |
-| customer_id PK|<——+ order_id       +—–>| product_id PK|
-| customer_name |       | product_id PK  |      | product_name |
-| email         |       | customer_id FK |      | category_id FK
-| region_id FK  |       | date_id  FK    |      | price        |
-+—————+       | total_amount   |      +–––––––+
-| total_quantity |
-+—––+––––+
-|
-|
-+——v—––+
-|   dim_date   |
-| date_id (PK) |
-| full_date    |
-| day month yr |
-+–––––––+
+![Uploading image.png…]()
+
+                            
+
 ```
 If you prefer a PNG: open draw.io / DBeaver ER export and export PNG, drop into repo as `ER_diagram.png`.
 
